@@ -24,7 +24,7 @@
         <label for="citySearch"><h4>Search for a City:</h4></label>
         <div class="form-inline">
       <input type="text" class="form-control w-75" id="citySearchText">
-      <button type="submit" class="btn btn-light" id="citySearchButton">
+      <button type="submit" class="btn btn-light" id="citySearchBtn">
         <i class="fas fa-search"></i></button>
     </div>
 </form>
@@ -39,14 +39,14 @@
       <div class="card">
         <div class="card-body" id="currentWeather">
          <h3 class="card-title">
-          <span id="currentCity"></span>
-           <span id="todaysDate"></span>
-            <img src="" alt="" id="currentWeatherIcon"></h3>
+          <span id="elCity"></span>
+           <span id="currentDate"></span>
+            <img src="" alt="" id="elWeatherIcon"></h3>
             <ul class="card-text current-weather-conditions">
-            <li>Temperature: <span id="todaysTemp"></span>&degF</li>
-            <li>Humidity: <span id="todaysHumidity"></span>%</li>
-            <li>Wind Speed: <span id="todaysWindSpeed"></span>MPH</li>
-            <li>UV Index:<span class="border d-inline-block rounded px-2 py-1" id="todaysUVIndex">
+            <li>Temperature: <span id="elTemp"></span>&degF</li>
+            <li>Humidity: <span id="elHumidity"></span>%</li>
+            <li>Wind Speed: <span id="elWindSpeed"></span>MPH</li>
+            <li>UV Index:<span class="border d-inline-block rounded px-2 py-1" id="elUVIndex">
          </span>
         </li>
        </ul>
